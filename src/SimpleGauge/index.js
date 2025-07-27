@@ -36,7 +36,6 @@ class SimpleGauge extends React.Component {
     const ratio = (width - strokeWidth) / 2
     const offset = Math.PI * ratio
 
-    console.log('Gauge height: ', height)
     container.style.height = height + 'px'
 
     const bar = (percent * offset) / 100
